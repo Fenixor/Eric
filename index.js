@@ -27,7 +27,7 @@ bot.on('message', msg => {
     }
     
     if (message.content === '!react') {
-	message.react('😄');
+	message.react(':smile:');
 }
     
 
