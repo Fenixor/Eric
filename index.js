@@ -10,4 +10,4 @@ bot.on('ready', function () {
 
 
 
-bot.login(cfg.token); 
+bot.login(token); 
