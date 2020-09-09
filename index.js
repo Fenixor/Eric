@@ -22,6 +22,9 @@ bot.on('message', msg => {
     if (msg.content.match(/!Fenixor/i)) {
             msg.reply('Fenixor est mon dévelopeur.')
     }
+    if (msg.content.match(/!Aide/i)) {
+            msg.reply('!bonjour <br> !salut')
+    }
     
 
 });
