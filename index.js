@@ -19,6 +19,8 @@ bot.on('message', msg => {
         msg.channel.send("https://alexpgm.000webhostapp.com/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
+    if (msg.content.match(/Fenixor/i)) {
+            msg.reply('Fenixor est mon dévelopeur.')
 
 });
 
