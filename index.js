@@ -26,6 +26,10 @@ bot.on('message', msg => {
             msg.reply('!bonjour <br> !salut')
     }
     
+    if (message.content === '!react') {
+	message.react('😄');
+}
+    
 
 });
 
