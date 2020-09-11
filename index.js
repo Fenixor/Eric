@@ -31,7 +31,7 @@ bot.on('message', msg => {
 	if (msg.content === '!react') {
 	msg.react('😄');
 	}
-client.on("message", function(message) {
+client.on("message", function(msg) {
     
 	
 msg.awaitReactions(filter, { max: 1, time: 60000})
