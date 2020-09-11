@@ -29,14 +29,14 @@ bot.on('message', msg => {
 	msg.react('😄');
 	}
 	
-message.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] })
+msg.awaitReactions(filter, { max: 1, time: 60000, errors: ['time'] })
 	.then(collected => {
 		const reaction = collected.first();
 
 		if (reaction.emoji.name === '👍') {
-			message.reply('you reacted with a thumbs up.');
+			msg.reply('you reacted with a thumbs up.');
 		} else {
-			message.reply('you reacted with a thumbs down.');
+			msg.reply('you reacted with a thumbs down.');
 		}
 		
 	
