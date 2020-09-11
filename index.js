@@ -38,6 +38,7 @@ msg.awaitReactions(filter, { max: 1, time: 60000})
 
 		if (reaction.emoji.name === '👍') {
 			msg.reply('you reacted with a thumbs up.');
+			msg.react('😄');
 		} else {
 			msg.reply('you reacted with a thumbs down.');
 		}
