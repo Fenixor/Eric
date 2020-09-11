@@ -31,19 +31,21 @@ bot.on('message', msg => {
 	if (msg.content === '!react') {
 	msg.react('😄');
 	}
+client.on("message", function(message) {
+    
 	
 msg.awaitReactions(filter, { max: 1, time: 60000})
 	.then(collected => {
 		const reaction = collected.first();
 
 		if (reaction.emoji.name === '👍') {
-			message.send("pong");
+			client.msg.send("pong");
 		} else {
 			msg.reply('you reacted with a thumbs down.');
 		}
 
 });	
-	
+});	
 });
 
 
