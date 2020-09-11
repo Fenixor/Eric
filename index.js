@@ -37,8 +37,7 @@ msg.awaitReactions(filter, { max: 1, time: 60000})
 		const reaction = collected.first();
 
 		if (reaction.emoji.name === '👍') {
-			msg.reply('you reacted with a thumbs up.');
-			msg.react('😄');
+			client.message.send(author, "pong");
 		} else {
 			msg.reply('you reacted with a thumbs down.');
 		}
