@@ -26,7 +26,7 @@ bot.on('message', msg => {
             msg.reply('Fenixor est mon dévelopeur.')
     }
     if (msg.content.match(/!Aide/i)) {
-            msg.reply('!bonjour <br> !salut')
+            msg.reply('!bonjour **\n !salut')
     }
 	if (msg.content === '!react') {
 	msg.react('😄');
