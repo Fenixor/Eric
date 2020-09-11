@@ -29,7 +29,7 @@ bot.on('message', msg => {
 	msg.react('😄');
 	}
 	
-message.awaitReactions(filter, { max: 1, time: 60000})
+msg.awaitReactions(filter, { max: 1, time: 60000})
 	.then(collected => {
 		const reaction = collected.first();
 
