@@ -6,6 +6,8 @@ const prefix = (cfg.prefix);
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
     bot.user.setActivity('être testé par Fenixor').catch(console.error)
+	
+    
 });
 
 bot.on('message', msg => {
@@ -13,7 +15,7 @@ bot.on('message', msg => {
 	return ['👍', '👎'].includes(reaction.emoji.name) && user.id === msg.author.id;
 };
     if (msg.content === "bonjour"){
-        msg.reply("Heureux de te revoir parmis nous.")
+        msg.channel.send('My Message')
     }
     if (msg.content.match(/salut/i)) {
             msg.reply('Je suis d\'accord avec toi.')
