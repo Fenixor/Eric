@@ -3,15 +3,15 @@ const bot = new Discord.Client();
 const cfg = require('./index.json');
 const token = process.env.token;
 const prefix = (cfg.prefix);
-const filter = (reaction, user) => {
-	return ['👍', '👎'].includes(reaction.emoji.name) && user.id === message.author.id;
-};
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
     bot.user.setActivity('être testé par Fenixor').catch(console.error)
 });
 
 bot.on('message', msg => {
+	const filter = (reaction, user) => {
+	return ['👍', '👎'].includes(reaction.emoji.name) && user.id === msg.author.id;
+};
     if (msg.content === "bonjour"){
         msg.reply("Heureux de te revoir parmis nous.")
     }
