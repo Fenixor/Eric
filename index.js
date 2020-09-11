@@ -25,15 +25,15 @@ bot.on('message', msg => {
     if (msg.content.match(/!Aide/i)) {
             msg.reply('!bonjour <br> !salut')
     }
+	
+	if (message.content === '!react') {
+	message.react('😄');
+	}
 
 });
        
     
-client.on('message', message => {
-	if (message.content === '!react') {
-	message.react('😄');
-	}
-});
+
     
 
 	    
