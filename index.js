@@ -25,8 +25,8 @@ msg.awaitReactions(filter, { max: 1, time: 60000})
 	.then(collected => {
 		const reaction = collected.first();
 
-		if (reaction.emoji.name === '') {
-			bot.msg.send("pong");
+		if (reaction.emoji.name === '🎉') {
+			bot.msg.send('lol');
 		}});
 	
 	
