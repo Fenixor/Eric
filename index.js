@@ -36,7 +36,7 @@ bot.on("message", msg => {
 	const filter = (reaction, user) => {
 	return ['🎉'].includes(reaction.emoji.name) && user.id === msg.author.id;
 };
-	msg.awaitReactions(filter, { max: 1.5, time: 100})
+	msg.awaitReactions(filter, { max: 1.5, time: 1000})
 	.then(collected => {
 		const reaction = collected.first();
 
