@@ -19,7 +19,7 @@ bot.on("message", msg => {
 	
 	    if (msg.content === "bonjour"){
 		    msg.channel.send('Clique sur 🎉')
-		    message.addReaction("😃")
+		    msg.addReaction("😃")
 	    }
 		    
         
