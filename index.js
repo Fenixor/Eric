@@ -18,7 +18,7 @@ bot.on("message", msg => {
 	
 	
 	    if (msg.content === "bonjour"){
-        msg.channel.send('My Message')
+        msg.channel.send('Clique sur 🎉')
 	    .then(msg => {msg.react('🎉')
   });
 	    };
@@ -36,7 +36,7 @@ bot.on("message", msg => {
 		const reaction = collected.first();
 
 		if (reaction.emoji.name === '🎉') {
-			msg.channel.send('My Message')
+			msg.channel.send('Bravo')
 			
 		}});
 	
