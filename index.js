@@ -24,7 +24,7 @@ bot.on("message", msg => {
 	    }
 	
 	
-	bot.on("messageReactionAdd", (reaction , user) =>{
+	bot.on('messageReactionAdd', (reaction , user) =>{
 		console.log("React");
 	});
 		
