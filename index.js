@@ -13,7 +13,16 @@ bot.on("message", msg => {
 	
 	if (msg.content === "bonjour"){
         msg.channel.send('My Message')
-	}
+		.then(msg => {msg.react('🎉')
+			     }
+		      }
+		      )
+			      
+			    
+	
+		
+			      
+	
 	
 	
 	    
