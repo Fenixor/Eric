@@ -1,6 +1,9 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const token = process.env.token;
+const filter = (reaction, user) => {
+	return ['🎉'].includes(reaction.emoji.name) && user.id === msg.author.id;
+};
 
 
 
@@ -13,9 +16,7 @@ bot.on('ready', function () {
 bot.on("message", msg => {
 	
 	
-const filter = (reaction, user) => {
-	return ['🎉'].includes(reaction.emoji.name) && user.id === msg.author.id;
-};
+
 	
 	
 	    if (msg.content === "bonjour"){
