@@ -19,7 +19,7 @@ bot.on("message", msg => {
   
    
          
-	});
+	};
 	
 	
 	
