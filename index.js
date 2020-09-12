@@ -22,6 +22,25 @@ bot.on("message", msg => {
 		    .then(msg => {msg.react('🎉')
 				 });
 	    }
+	
+	
+	
+	
+	client.on('messageReactionAdd', (messageReaction, user) => {
+if(user.bot)  return;
+const { message, emoji } = messageReaction;
+
+if(emoji.name === "🎉") {
+if(message.id === "754328129677426688") {
+	msg.channel.send('Sa marche ptn')
+
+  }
+ } 
+});
+	
+	
+	
+	
  
 	    
 		    
@@ -33,17 +52,7 @@ bot.on("message", msg => {
 		    
    
 	
-	const filter = (reaction, user) => {
-	return ['🎉'].includes(reaction.emoji.name) && user.id === msg.author.id;
-};
-	msg.awaitReactions(filter, { max: 1.5, time: 1000})
-	.then(collected => {
-		const reaction = collected.first();
-
-		if (reaction.emoji.name === '🎉') {
-			msg.channel.send('Bravo')
-			
-		}});
+	
 	
 
 
