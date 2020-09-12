@@ -9,10 +9,10 @@ bot.on('ready', function () {
 	
     });
 
-bot.on("message", message => {
+bot.on("message", msg => {
 	
-	if (message.content === "bonjour"){
-        message.channel.send('My Message')
+	if (msg.content === "bonjour"){
+        msg.channel.send('My Message')
 	    .then(msg => {msg.react('🎉')
 			 
 		  
