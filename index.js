@@ -25,7 +25,7 @@ bot.on("message", msg => {
 	
 	
 	bot.on('messageReactionAdd', (reaction , user) =>{
-		console.log("React");
+		msg.channel.send('react '+ reaction);
 	});
 		
 	
