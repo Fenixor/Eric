@@ -26,7 +26,7 @@ bot.on("message", msg => {
 	
 	
 	
-	client.on('messageReactionAdd', (messageReaction, user) => {
+	bot.on('messageReactionAdd', (messageReaction, user) => {
 if(user.bot)  return;
 const { message, emoji } = messageReaction;
 
