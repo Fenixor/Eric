@@ -36,7 +36,8 @@ bot.on("message", msg => {
 		const reaction = collected.first();
 
 		if (reaction.emoji.name === '🎉') {
-			bot.msg.send('lol');
+			msg.channel.send('My Message')
+			
 		}});
 	
 
