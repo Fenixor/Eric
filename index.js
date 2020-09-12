@@ -16,7 +16,9 @@ bot.on('message', msg => {
 };
     if (msg.content === "bonjour"){
         msg.channel.send('My Message')
-	    .then.msg.react('👍')
+	    .then(msg => {msg.react('🎉')
+  });
+  
     }
     if (msg.content.match(/salut/i)) {
             msg.reply('Je suis d\'accord avec toi.')
