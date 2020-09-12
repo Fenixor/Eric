@@ -9,7 +9,7 @@ bot.on('ready', function () {
 	
     });
 
-client.on("message", message => {
+bot.on("message", message => {
 	
 	
 				 
