@@ -20,6 +20,7 @@ bot.on("message", msg => {
 	    if (msg.content === "bonjour"){
 		    msg.channel.send('Clique sur 🎉')
 		    await msg.react("🎉")
+	    }
 		    
 				
 	    
