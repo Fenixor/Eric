@@ -14,7 +14,15 @@ client.on("message", message => {
 	if (msg.content === "bonjour"){
         msg.channel.send('My Message')
 		.then(msg => {msg.react('🎉')
-			     }});
+			     });
+				 
+				 
+});
+
+
+
+
+};
 	
 	
 		
@@ -34,7 +42,7 @@ client.on("message", message => {
 	
 	
 
-});
+
 
 
 
