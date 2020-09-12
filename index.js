@@ -2,8 +2,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token;
 
-client.once('ready', () => {
-   console.log(‘Félicitations, votre bot Discord a été correctement initialisé !');
-});
+bot.on('ready', function () {
+    console.log("Je suis prêt à être utilisé.")
+    bot.user.setActivity('être testé par Fenixor').catch(console.error)
+	
+    });
+
+
 
 client.login(token);
