@@ -24,18 +24,16 @@ bot.on("message", msg => {
 	    }
 	
 	
+	bot.on("messageReactionAdd", (reaction , user) =>{
+		console.log("React");
+	});
+		
 	
 	
-	bot.on('messageReactionAdd', (messageReaction, user) => {
-if(user.bot)  return;
-const { message, emoji } = messageReaction;
-
-if(emoji.name === "🎉") {
-if(message.id === "754328129677426688") {
-	msg.channel.send('Sa marche ptn')
-
-  }
- } 
+	
+	
+	
+ 
 });
 	
 	
