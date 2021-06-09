@@ -1,0 +1,114 @@
+{
+  "Config": [
+    {
+      "idserv": "833023342914699266",
+      "prefix": "!",
+      "restock": "<#848485782012297256>",
+      "rupture": "https://media.discordapp.net/attachments/848227516296593458/852136526972321802/eso1644bsmall__w770.jpg",
+      "gen": "https://media.discordapp.net/attachments/848227516296593458/852136551617003540/eso1644bsmall__w770.jpg",
+      "time": "5",
+      "timeimg": "https://media.discordapp.net/attachments/848227516296593458/852136596345192448/eso1644bsmall__w770.jpg",
+      "channel": "<#848227516296593458>"
+    },
+    {
+      "idserv": "843700183917264896",
+      "prefix": "!",
+      "restock": "<#848271563122802748>",
+      "rupture": "😭",
+      "gen": "<a:emoji_64:840618758208487446>",
+      "time": "1m",
+      "timeimg": "<:779692421965021194:847917183485214790>",
+      "channel": "<#848271445716238386>"
+    },
+    {
+      "idserv": "848273547839537193",
+      "prefix": "!",
+      "restock": "<#848273547839537196>",
+      "rupture": "https://media.discordapp.net/attachments/848273547839537196/848517948829597716/image0.jpg",
+      "gen": "https://media.discordapp.net/attachments/848273547839537196/848517975077945374/image0.jpg",
+      "time": "5m",
+      "timeimg": "https://media.discordapp.net/attachments/848273547839537196/848518129563074580/image0.jpg",
+      "channel": "<#848273547839537196>"
+    },
+    {
+      "idserv": "848272623988637757",
+      "prefix": "!",
+      "restock": "<#848272623988637762>",
+      "rupture": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+      "gen": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+      "time": "5",
+      "timeimg": "https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png",
+      "channel": "<#848272623988637761>"
+    },
+    {
+      "idserv": "848273818069368917",
+      "prefix": ".",
+      "restock": "restock",
+      "rupture": "",
+      "gen": "test",
+      "time": "1h",
+      "timeimg": "",
+      "channel": "jeux"
+    },
+    {
+      "idserv": "848496806631047168",
+      "prefix": "!",
+      "restock": "<#848496806631047171>",
+      "rupture": "https://media.discordapp.net/attachments/848496806631047171/848521046499786832/Fond_bleu_avec_un_S.png",
+      "gen": "https://media.discordapp.net/attachments/848496806631047171/848521073108582400/Fond_bleu_avec_un_S.png",
+      "time": "5",
+      "timeimg": "https://media.discordapp.net/attachments/848496806631047171/848521121270726697/Fond_bleu_avec_un_S.png",
+      "channel": "<#848496806631047171>"
+    },
+    {
+      "idserv": "848331448662491177",
+      "prefix": "!",
+      "restock": "<#848333391316516894> <#848333421847248916>",
+      "rupture": "https://media.discordapp.net/attachments/848333511610073089/849723992223121428/image0.png",
+      "gen": "https://media.discordapp.net/attachments/848333511610073089/849724064662683668/image0.jpg",
+      "time": "5",
+      "timeimg": "https://media.discordapp.net/attachments/848333511610073089/849724126205313064/image0.jpg",
+      "channel": "<#848333357020741672>"
+    },
+    {
+      "idserv": "852208545272692746",
+      "prefix": "!",
+      "restock": "<#852210533213405195>",
+      "rupture": "https://media.discordapp.net/attachments/852208545272692749/852221053420961803/image0.png",
+      "gen": "https://media.discordapp.net/attachments/852208545272692749/852221236695662602/image0.jpg",
+      "time": "1",
+      "timeimg": "https://media.discordapp.net/attachments/852208545272692749/852220428343705600/eso1644bsmall__w770.jpg",
+      "channel": "<#852208545272692749>"
+    },
+    {
+      "idserv": "850134324534706296",
+      "prefix": "!",
+      "restock": "<#850496375565451295> <#850496375565451295>",
+      "rupture": "https://media.discordapp.net/attachments/850496375565451295/852212132753440829/image0.png",
+      "gen": "https://media.discordapp.net/attachments/850496375565451295/852212199975026752/image0.gif",
+      "time": "1",
+      "timeimg": "https://media.discordapp.net/attachments/850496375565451295/852212304728555590/image0.gif",
+      "channel": "<#850495005034545162>"
+    },
+    {
+      "idserv": "730043745877098516",
+      "prefix": "_",
+      "restock": "<#809374362326138890>",
+      "rupture": "https://media.discordapp.net/attachments/850603015404781569/852238262763520071/35326987-timbre-avec-le-texte-en-rupture-de-stock-a-l-interieur-illustration-vectorielle.jpg",
+      "gen": "https://media.discordapp.net/attachments/850603015404781569/852238486672506880/restock-grunge-rubber-stamp-vector-35170423.jpg",
+      "time": "60",
+      "timeimg": "https://media.discordapp.net/attachments/850603015404781569/852238830181810236/depositphotos_25033791-stock-illustration-please-wait.jpg",
+      "channel": "<#852240624089432084>"
+    },
+    {
+      "idserv": "834141057306460180",
+      "prefix": "/",
+      "restock": "<#852240026141851748>",
+      "rupture": "https://media.discordapp.net/attachments/836235527103315968/852254482888261642/Discord-Account-Generator-Download-in-desc.jpg",
+      "gen": "https://cdn.discordapp.com/attachments/852254973302931546/852257606385795132/X1QIYyS_-_Imgur.gif",
+      "time": "30",
+      "timeimg": "https://media.discordapp.net/attachments/839954364180463647/852240279800774666/PowerGen1_1.png",
+      "channel": "<#850669452647071744>"
+    }
+  ]
+}
